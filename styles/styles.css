@@ -4,20 +4,45 @@ html
     background-color:rgb(9, 132, 255);
 }
 
-h1
+h1, h2
 {
-    margin: 0 auto;
     text-align: center;
 }
 
-.HTML-Basics
+h1
 {
-    padding: 0 0 0 100px;
+    margin: 0;
 }
+
+.HTML-Basics, .CSS-Basics, .Javascript-Basics
+{
+    width: 150px;
+}
+
+/* .HTML-Basics
+{
+    float: left;
+}
+
+.CSS-Basics
+{
+    float: left;
+}
+
+.Javascript-Basics
+{
+    float: left;
+} */
 
 body
 {
     margin: 0 auto;
+    padding: 20px 50px;
     width: 600px;
-    background-color:rgb(189, 230, 255);
+    background-color: whitesmoke;
+}
+
+a
+{
+    padding: 22px;
 }
